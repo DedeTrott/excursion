@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;  
+  box-sizing: border-box;
 }
 
 body,html{
@@ -13,17 +14,62 @@ h1{
     font-size: 50px;
     color: white;
     text-align: center;
-    margin-top: 50px;
+    margin: 50px;
 }
 
-a:link{
+a{
     color: aquamarine;
 }
 
-p {
+.button {
     color: aquamarine;
     cursor: pointer;
     font-size: 16px;
     text-align: center;
-    margin: 40px;
+    margin: 50px;
+}
+
+.phone-video{
+    text-align: center;
+}
+
+h2{
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+    text-align: center;
+    margin: 50px;
+}
+
+p{
+    color: grey;
+    font-size: 21px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.image{
+    text-align: center;
+    margin: 20px;
+}
+
+.icon{
+    text-align: center;
+    margin: 20px;
+}
+
+h3{
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+    text-align: center;
+    margin: 50px;
+}
+
+.copyright{
+    color: grey;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+    margin: 20px;
 }
